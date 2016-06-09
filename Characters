@@ -1,0 +1,18 @@
+var newPlayer = ();
+var a_wook_1 = (); 
+var a_wook_2 = (); 
+var a_wook_3 = (); 
+var a_wook_4 = (); 
+var a_wook_5 = (); 
+var a_wook_6 = (); 
+var a_wook_7 = (); 
+var a_wook_8 = (); 
+var a_wook_9 = (); 
+
+
+newPlayer.strength = 5;
+newPlayer.stamina = 5;
+newPlayer.agility = 5;
+newPlayer.charisma = 5;
+newPlayer.intelligence = 5;
+
