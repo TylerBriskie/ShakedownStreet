@@ -9,10 +9,6 @@ var a_wook_7 = ();
 var a_wook_8 = (); 
 var a_wook_9 = (); 
 
-
-newPlayer.strength = 5;
-newPlayer.stamina = 5;
-newPlayer.agility = 5;
-newPlayer.charisma = 5;
-newPlayer.intelligence = 5;
-
+var names = ["Fudgy", "Marcus", "Ernesto", "Johnny", "Slim", "Trev", "Adam", "Thomas", "Frankie", "Applejack"];
+var trait = ["Spun", "High", "Drunk", "Tripping", "Nitrous", "Sober", "Hungry", "Thirsty"]
+var hasTicket = false
