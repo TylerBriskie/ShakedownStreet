@@ -1,0 +1,25 @@
+body {
+
+  background-color:#FFBB00;
+}
+
+header {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  padding-bottom:1em;
+  border-bottom:1px solid black;
+}
+
+header h1 {
+  font-size:2em;
+  font-family: 'Shadows Into Light', cursive;
+}
+.inventory h3 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+p {
+  font-family: 'Francois One', sans-serif;
+}
