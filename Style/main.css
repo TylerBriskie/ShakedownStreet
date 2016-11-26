@@ -16,10 +16,10 @@ header h1 {
   font-size:2em;
   font-family: 'Shadows Into Light', cursive;
 }
-.inventory h3 {
+.inventory h3, details p {
   font-family: 'Shadows Into Light', cursive;
 }
 
-p {
+p, li {
   font-family: 'Francois One', sans-serif;
 }
