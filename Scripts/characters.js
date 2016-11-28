@@ -1,4 +1,4 @@
-var names = ["Ember", "Echo", "Moon Song", "Energy Turtle", "Lyric", "India", "Wind Song", "August","Rain", "Aspen", "Rainbow Rose", "Jazz", "Shandelle", "Marcus", "Ernesto", "Johnny", "Slim", "Trev", "Adam", "Thomas", "Moon", "Flow", "Frankie", "Applejack"];
+var names = ["Ember", "Echo", "T-Bird", "Django", "Frankie", "Moon Beam", "Energy Turtle", "Lyric", "India", "Wind Song", "August","Rain", "Aspen", "Rainbow Rose", "Jazz", "Shandelle", "Marcus", "Ernesto", "Johnny", "Slim", "Trev", "Adam", "Thomas", "Moon", "Flow", "Frankie", "Applejack"];
 var traits = ["spun", "high", "drunk", "hungover", "tripping", "sober", "hungry", "thirsty"];
 
 
