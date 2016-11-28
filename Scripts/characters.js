@@ -1,4 +1,4 @@
-var names = ["Ember", "Echo", "T-Bird", "Django", "Frankie", "Moon Beam", "Energy Turtle", "Lyric", "India", "Wind Song", "August","Rain", "Aspen", "Rainbow Rose", "Jazz", "Shandelle", "Marcus", "Ernesto", "Johnny", "Slim", "Trev", "Adam", "Thomas", "Moon", "Flow", "Frankie", "Applejack"];
+var names = ["Ember", "Echo", "T-Bird", "Django", "Frankie", "Whisper", "Sundance", "Moon Beam", "Quest", "Energy Turtle", "Lyric", "India", "Wind Song", "August", "Rain", "Aspen","Rainbow Rose", "Jazz", "Shandelle", "Marcus", "Ernesto", "Johnny", "Slim", "Trev", "Adam", "Thomas", "J-Bone", "Flow", "Frankie", "Applejack"];
 var traits = ["spun", "high", "drunk", "hungover", "tripping", "sober", "hungry", "thirsty"];
 
 
@@ -7,6 +7,7 @@ function Character (number){
   this.trait = traits[Math.floor(Math.random()*traits.length)];
   this.hasTicket = false;
   this.wookNumber = number;
+  // this.location = gameMap[number].name;
 }
 
 /* ==================

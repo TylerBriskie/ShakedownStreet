@@ -43,9 +43,46 @@ var gameItems_booze = [
   }
 ];
 
-var gameItems_drugs = [
-  {},{},{},{},{}
+var gameItems_food = [
+  {
+    name:"Grilled Cheese",
+    price:5,
+    potency:6,
+  },{
+    name:"Giant Turkey Leg",
+    price:10,
+    potency:15,
+  },{
+    name:"Half Empty Package Of Fruit Snacks",
+    description:"It's mostly just purple flavored",
+    price:2,
+    potency:2,
+  },{
+    name:"Wonton Soup"
+    description:"Found behind the port-a-potties.  Could be poisonous",
+    price:0,
+    potency:-5,
+  },{
+    name:"Cheeseburger"
+    description:"A cheeseburger, medium rare, with lettuce, onions, and tomato.  Could use a little mustard though."
+    price:10,
+    potency:15,
+  }
 ];
+
+var gameItems_commodities = [
+  {
+    name:"30th Anniversary Pin"
+    description:"A pin from Phish's 30th anniversary tour.  Has a pretty funny Dick's joke."
+    price:10,
+    potency:15,
+  }
+];
+
+var gameItems_drugs = [
+  {},{},{},{},{},{}
+];
+
 var gameShops = [
   {
     name:"Who's Got Yer Gooballs",
