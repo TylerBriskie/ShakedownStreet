@@ -58,13 +58,13 @@ var gameItems_food = [
     price:2,
     potency:2,
   },{
-    name:"Wonton Soup"
+    name:"Wonton Soup",
     description:"Found behind the port-a-potties.  Could be poisonous",
     price:0,
     potency:-5,
   },{
-    name:"Cheeseburger"
-    description:"A cheeseburger, medium rare, with lettuce, onions, and tomato.  Could use a little mustard though."
+    name:"Cheeseburger",
+    description:"A cheeseburger, medium rare, with lettuce, onions, and tomato.  Could use a little mustard though.",
     price:10,
     potency:15,
   }
@@ -72,11 +72,36 @@ var gameItems_food = [
 
 var gameItems_commodities = [
   {
-    name:"30th Anniversary Pin"
-    description:"A pin from Phish's 30th anniversary tour.  Has a pretty funny Dick's joke."
+    name:"30th Anniversary Pin",
+    description:"A pin from Phish's 30th anniversary tour.  It's in the shape of a dick...",
     price:10,
     potency:15,
+  }, {
+    name:
+    description:
+    price:
+    potency:
+
+  }, {
+    name:
+    description:
+    price:
+    potency:
+
+  }, {
+    name:
+    description:
+    price:
+    potency:
+
+  }, {
+    name:
+    description:
+    price:
+    potency:
+    
   }
+
 ];
 
 var gameItems_drugs = [
@@ -114,14 +139,18 @@ var gameShops = [
     }]
 
   },{
-    name:"Curds Of A Feather",
+    name:"The Helping Friendly Cook",
     shopNumber:2,
     inventory: [{
-      item:"Cheese Curds",
+      item:"Giant Turkey Leg",
       price:15,
     },{
-      item:"Deluxe Goo Ball",
+      item:"Cheeseburger",
       price:40,
+    },{
+      item:"Coca Cola",
+      description:"Hasn't had any cocaine in it since the 50's.  Bummer."
+      price:4,
     }]
   },{
     name:"Who's Got Yer Gooballs",

@@ -1,5 +1,5 @@
-var names = ["Ember", "Echo", "T-Bird", "Django", "Frankie", "Whisper", "Sundance", "Moon Beam", "Quest", "Energy Turtle", "Lyric", "India", "Wind Song", "August", "Rain", "Aspen","Rainbow Rose", "Jazz", "Shandelle", "Marcus", "Ernesto", "Johnny", "Slim", "Trev", "Adam", "Thomas", "J-Bone", "Flow", "Frankie", "Applejack"];
-var traits = ["spun", "high", "drunk", "hungover", "tripping", "sober", "hungry", "thirsty"];
+var names = ["Ember", "Echo", "Cosmo", "Zeke", "T-Bird", "Django", "Frankie", "Whisper", "Sundance", "Moon Beam", "Quest", "Energy Turtle", "Lyric", "India", "Wind Song", "August", "Rain", "Aspen","Rainbow Rose", "Jazz", "Shandelle", "Marcus", "Ernesto", "Johnny", "Slim", "Trev", "Adam", "Thomas", "J-Bone", "Flow", "Frankie", "Applejack"];
+var traits = ["spun", "high", "drunk", "coked out", "hungover", "tripping", "sober", "hungry", "thirsty"];
 
 
 function Character (number){
@@ -40,5 +40,10 @@ function randomWook(){
 function whoHasTicket(){
   var ticketHolder = randomWook();
   ticketHolder.hasTicket = true;
-  console.log(ticketHolder);
+};
+
+function getTraits(){
+  var x = [];
+  x.push(traits[Math.floor(Math.random()*traits.length)]);
+  x.push(traits[Math.floor(Math.random()*traits.length)]);
 };
