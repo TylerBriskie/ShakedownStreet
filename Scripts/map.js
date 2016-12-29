@@ -77,10 +77,22 @@ var gameItems_commodities = [
     price:10,
     potency:15,
   }, {
-    name:
-    description:
-    price:
-    potency:
+    name: "New Years Eve Poster",
+    description: "2009 at Madison Square Garden.  Good show.",
+    price: 15,
+    potency: 22
+
+  }, {
+    name: "Grateful Dead Tee",
+    description: "It's got some bears dancing on it",
+    price: 20,
+    potency: 32
+
+  }, {
+    name: "Jon Fishman Replica Moo Moo",
+    description: "Just like the one he wears onstage!",
+    price: 30,
+    potency:43
 
   }, {
     name:
@@ -88,18 +100,6 @@ var gameItems_commodities = [
     price:
     potency:
 
-  }, {
-    name:
-    description:
-    price:
-    potency:
-
-  }, {
-    name:
-    description:
-    price:
-    potency:
-    
   }
 
 ];
