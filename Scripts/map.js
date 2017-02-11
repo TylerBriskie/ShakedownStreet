@@ -2,20 +2,20 @@ var gameItems_pot = [
 
   {
     name:"Half-Smoked Jay",
-    price:10,
-    potency:10,
+    price:5,
+    potency:5,
   } , {
     name:"Top-Shelf Blunt",
-    price:15,
-    potency:18,
+    price:10,
+    potency:12,
   } , {
     name:"Goo Ball",
-    price:20,
-    potency:25
+    price:15,
+    potency:20
   } , {
     name:"Deluxe Goo Ball",
-    price:30,
-    potency:40,
+    price:20,
+    potency:30,
   }
 ];
 
