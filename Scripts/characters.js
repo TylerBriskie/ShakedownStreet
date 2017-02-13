@@ -1,5 +1,22 @@
 var names = ["Ember", "Echo", "Cosmo", "Zeke", "T-Bird", "Django", "Frankie", "Whisper", "Sundance", "Moon Beam", "Quest", "Energy Turtle", "Lyric", "India", "Wind Song", "August", "Rain", "Aspen","Rainbow Rose", "Jazz", "Shandelle", "Marcus", "Ernesto", "Johnny", "Slim", "Trev", "Adam", "Thomas", "J-Bone", "Flow", "Frankie", "Applejack"];
 var traits = ["spun", "high", "drunk", "coked out", "hungover", "tripping", "sober", "hungry", "thirsty"];
+var item_types = ["water", "food", "coke","molly", "booze", "weed", "acid", "sundries", "coffee", ]
+console.log(item_types.length)
+/*
+
+spun helps: molly, weed
+high helps: food, water
+drunk helps: food, water, coffee
+coked out helps: booze, weed
+hungover helps: booze, food
+tripping helps: weed, water
+sober helps: booze, weed, molly, acid, coke
+hungry helps: food
+thirsty helps: water
+
+
+
+*/
 
 
 function Character (number){
