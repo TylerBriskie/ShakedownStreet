@@ -3,11 +3,11 @@ var gameItems_pot = [
   {
     name:"Half-Smoked Jay",
     price:5,
-    potency:5,
+    potency:5
   } , {
     name:"Top-Shelf Blunt",
     price:10,
-    potency:12,
+    potency:12
   } , {
     name:"Goo Ball",
     price:15,
@@ -15,7 +15,7 @@ var gameItems_pot = [
   } , {
     name:"Deluxe Goo Ball",
     price:20,
-    potency:30,
+    potency:30
   }
 ];
 
@@ -33,7 +33,7 @@ var gameItems_booze = [
     price:15,
     potency:18,
   },{
-    name:"12 Pack of Craft Microbrews"
+    name:"12 Pack of Craft Microbrews",
     price:20,
     potency:25,
   },{
@@ -94,12 +94,6 @@ var gameItems_commodities = [
     price: 30,
     potency:43
 
-  }, {
-    name:
-    description:
-    price:
-    potency:
-
   }
 
 ];
@@ -120,8 +114,6 @@ var gameShops = [
       item:"Deluxe Goo Ball",
       price:40,
       type:"pot",
-    },{
-
     }]
   },{
     name:"Grilled Cheese Sammiches",
@@ -149,11 +141,11 @@ var gameShops = [
       price:40,
     },{
       item:"Coca Cola",
-      description:"Hasn't had any cocaine in it since the 50's.  Bummer."
+      description:"Hasn't had any cocaine in it since the 50's.  Bummer.",
       price:4,
     }]
   },{
-    name:"Who's Got Yer Gooballs",
+    name:"Ramblin' Roast",
     shopNumber:3,
     inventory: [{
       item:"Goo Ball",
@@ -178,7 +170,6 @@ var gameShops = [
 var gameMap =
   [{
     name:'North West Lot',
-    shop: gameShops[0],
   },{
     name:'North Lot',
   },{
@@ -211,4 +202,5 @@ function populateMap(){
   for (var i=0;i<gameMap.length;i++){
     gameMap[i].wook = lotWooks[i];
   }
+  console.log(gameMap);
 };
